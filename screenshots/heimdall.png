@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Heimdall Application Dashboard</title>
+        <meta name="description" content="The Heimdall Application Dashboard makes managing your websites and applications much easier.">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.css?v=6" type="text/css" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114746418-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114746418-1');
+        </script>
+
+    </head>
+    <body>
+        <div id="app">
+            <a href="https://www.paypal.me/heimdall" class="info donate"><span>Paypal</span><span class="extra">Donate</span></a>
+            <section class="section1">
+                <div class="container">
+                <nav class="mainmenu">
+                        <a href="https://github.com/linuxserver/Heimdall/releases/latest" class="info"><span>Current</span><span class="extra">v2.8.3</span></a>
+                    <ul>
+                        <li><a target="_blank" href="https://blog.heimdall.site/"><i class="fal fa-newspaper"></i><span>News</span></a></li>
+                        <li><a target="_blank" href="https://github.com/linuxserver/Heimdall/issues"><i class="fal fa-medkit"></i><span>Issues</span></a></li>
+                        <li><a target="_blank" href="https://discord.gg/CCjHKn4"><i class="fab fa-discord"></i><span>Support</span></a></li>
+                        <li><a href="https://www.youtube.com/embed/GXnnMAxPzMc" data-mediabox="my-gallery-name"
+	data-iframe="true"
+	data-width="853"
+	data-height="480"><i class="fal fa-video"></i><span>Video</span></a></li>
+                        <li><a target="_blank" href="https://github.com/linuxserver/Heimdall/releases/latest"><i class="fal fa-cloud-download"></i><span>Latest</span></a></li>
+                        <li><a target="_blank" href="https://hub.docker.com/r/linuxserver/heimdall/"><i class="fab fa-docker"></i><span>Docker</span></a></li>
+                    </ul>
+                    <div>&nbsp;</div>
+                </nav>
+                
+
+        <ul class="menu">
+                <li><a href="https://apps.heimdall.site/applications/foundation" class="info"><span class="label">Foundation Apps</span><span class="extra">521</span></a></li>
+                <li><a href="https://apps.heimdall.site/applications/enhanced" class="info"><span class="label">Enhanced Apps</span><span class="extra">155</span></a></li>
+                <li><a href="https://apps.heimdall.site/request" class="info"><span class="label">App requests</span><span class="extra">1</span></a></li>
+                </ul>
+
+                    
+                </div>
+            </section>
+            <section class="section2">
+                <div class="container">
+                    <div>
+                        <h1>Heimdall <span>Application Dashboard</span></h1>
+                        <p>Heimdall Application Dashboard is a dashboard for all your web applications. It doesn't need to be limited to applications though, you can add links to anything you like. There are no iframes here, no apps within apps, no abstraction of APIs. if you think something should work a certain way, it probably does.</p>
+                        <div class="row no-gutters dropbox">
+                                <div class="col-md-4">
+                                    <div class="greybox">
+                                        <h2>Simplicity</h2>
+                                        <p>Many projects fall into the trap of trying to cater for everyone. In the process a million different options are introduced so users can fine tune the application to perfectly match their needs. The end result of this is an application that can technically accommodate the needs of <strong>all</strong> of its users, but is too complicated for <strong>any</strong> of its users. </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="greenbox">
+                                        <h2>Elegance</h2>
+                                        <p>An important aspect in getting people to use an app is to get them to want to use it. For many apps design takes a back seat to functionality. With Heimdall I tried to create a visually pleasing app to encourage people to discover its benefits. Whether I succeeded in this is for you to decide.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="greybox">
+                                        <h2>Support</h2>
+                                        <p>Heimdall Application Dashboard is backed by the linuxserver.io group.</p><p>Support is a cornerstone of linuxserver.io's popularity, and has helped contribute to over 150million docker pulls</p>
+                                    </div>
+                                </div>
+                            </div>    
+                    
+
+                    </div>
+                </div>
+            </section>
+                        
+            <section class="section4 jarallax" style="background-image: url('/img/mockup.jpg');">
+            </section>
+
+
+
+            <section class="section2">
+                    <div class="container">
+                        <div>
+                            <h2>App Support</h2>
+                            <p>An item added to Heimdall falls into one of three categories. It's either a Generic item, a Foundation app, or an Enhanced app.</p>
+                            <div class="row no-gutters dropbox">
+                                <div class="col-md-4">
+                                    <div class="greybox">
+                                        <h2>Generic Apps</h2>
+                                        <p>One of the benefits to Heimdall is you can add a link to absolutely anything, whether it's intrinsically supported or not. With a generic item, you just fill in the name, background colour, add an icon if you want (if you don't a default Heimdall icon will be used), and enter the link url and it will be added. </p>
+                                        <p><img src="/img/genericapp.png" style="border: 8px solid #e3e8ec;" alt="Generic Apps" /></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bluebox">
+                                        <h2>Foundation Apps</h2>
+                                        <p>With these and indeed the Enhanced apps below, you just start typing the name of the app and if it's supported it will show up in a dropdown, click the app name and it will fill in a default background colour and the applications icon. All you need to do is put the URL you want to link to.</p>
+                                        <p><img src="/img/foundationapp.png" style="border: 8px solid #e3e8ec;" alt="Foundation Apps" /></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="greybox">
+                                        <h2>Enhanced Apps</h2>
+                                        <p>These are exactly the same as Foundation apps, the only difference is they also allow you to use an apps API to display some extra information automatically by just entering API credentials.<br />&nbsp;<br />&nbsp;<br />&nbsp;</p>
+                                        <p><img src="/img/enhancedapp.gif" style="border: 8px solid #e3e8ec;" alt="Enhanced Apps" /></p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <p><a target="_blank" href="https://apps.heimdall.site/request">Request an app</a> or help out by <a target="_blank" href="https://github.com/linuxserver/Heimdall-Apps/wiki/Submitting-an-app">creating a foundation app</a></p>
+    
+    
+                        </div>
+                    </div>
+                </section>
+                <section class="section3">
+                    <div class="container">
+                        <h2>Installation</h2>
+                        
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h3>Docker</h3>
+                                <p>Using a docker is probably the easiest way to get Heimdall Application Dashboard up and running.</p>
+                                <ul>
+                                    <!--<li><a target="blank" href="">Install instructions with Portainer</a></li>-->
+                                    <li><a target="blank" href="https://github.com/linuxserver/Heimdall/discussions/778">Install instructions with Ubuntu</a></li>
+                                    <!--<li><a target="blank" href="">Install instructions with Windows</a></li>-->
+                                </ul>
+                            </div>
+                            <div class="col-md-5">
+                                <img style="width: 50%; float: right;" src="/img/vertical1.png" alt="Docker" />
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-7">
+                            <h3>Manual</h3>
+                                <p>Even without using Docker, it's very easy to get Heimdall up and running.  Just point your HTTP daemons document route to the /public/ folder.</p>
+                                <p><a target="_blank" href="https://github.com/linuxserver/Heimdall/releases/latest">Latest release</a></p>
+
+                            </div>
+                            <div class="col-md-5">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            
+        </div>
+        <script src="js/app.js?v=2"></script>
+        <script>
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.2
+        });
+        </script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="js/app.js"></script>-->
+                
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"daad35f6823c4dc8a1630727db84b971","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
